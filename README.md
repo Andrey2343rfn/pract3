@@ -1,17 +1,29 @@
-# developer_card_app
+# 📱 Developer Card App (Практична робота)
 
-A new Flutter project.
+Мобільний та десктопний додаток-візитівка розробника, створений за допомогою фреймворку **Flutter**. Проєкт містить інформацію про розробника, його навички, контакти та інтерактивні елементи інтерфейсу.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🛠 Що зроблено
 
-A few resources to get you started if this is your first Flutter project:
+1. **Налаштування середовища розробки (macOS):**
+   - Встановлено та налаштовано Flutter SDK, Android SDK, CocoaPods та необхідні інструменти командного рядка.
+   - Добився повної стабільності середовища за допомогою `flutter doctor` (коректна робота Flutter, Android toolchain та конфігурації Xcode).
+2. **Розробка інтерфейсу додатка (`developer_card_app`):**
+   - Створено структуру проєкту згідно з принципами Flutter.
+   - Реалізовано екран профілю розробника (`DeveloperProfileScreen`) з використанням зручних карток (`Card`), списків та віджетів стилізації.
+   - Додано інтерактивні елементи (перемикання теми оформлення, інтерактивні посилання на соцмережі/контакти).
+3. **Тестування та деплой:**
+   - Успішно запущено додаток на десктопному симуляторі macOS та перевірено його працездатність.
+   - Створено віддалений репозиторій на GitHub та успішно завантажено вихідний код проєкту за допомогою системи контролю версій Git та Personal Access Token.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Як запустити проєкт
+
+Для завантаження та локального запуску проєкту виконайте наступні кроки у терміналі:
+
+1. **Клонуйте репозиторій:**
+   ```bash
+   git clone [https://github.com/Andrey2343rfn/pract3.git](https://github.com/Andrey2343rfn/pract3.git)
+   cd pract3
